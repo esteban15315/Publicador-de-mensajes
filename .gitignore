@@ -1,0 +1,28 @@
+# =============================================================================
+# Publicador de Mensajes - Archivos excluidos del control de versiones
+# =============================================================================
+
+# Dependencias (solo si se usan herramientas locales; el proyecto no las requiere)
+node_modules/
+package-lock.json
+package.json
+
+# Archivos y carpetas del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores y entornos
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos temporales y de registro
+*.log
+*.tmp
+*.bak
+*~
+
+# Entornos y secretos (no aplica a este proyecto, pero por buenas prácticas)
+.env
+.env.*
